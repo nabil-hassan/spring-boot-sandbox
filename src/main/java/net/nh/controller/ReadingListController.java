@@ -13,7 +13,7 @@ import net.nh.domain.Book;
 import net.nh.repository.ReadingListRepository;
 
 @Controller
-@RequestMapping("/")
+@RequestMapping("/reading")
 public class ReadingListController {
 
     private ReadingListRepository readingListRepository;
